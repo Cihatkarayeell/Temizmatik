@@ -1601,7 +1601,7 @@ p {
       padding: 200px 0; } }
   @media (max-width: 767px) {
     .about-section {
-      padding: 20px 0;
+      padding: 50px 0;
      } 
     }
   .about-section .header .title{
@@ -1623,6 +1623,17 @@ p {
     margin: 0 auto;
     margin-bottom: 40px;
   }
+  @media (max-width: 767px) {
+    .about-section .header .title{
+      font-size: 30px;
+     } 
+    }
+  @media (max-width: 767px) {
+    .about-section .header .subtitle{
+      max-width: 90%;
+      font-size: 16px;
+     } 
+    }
 
 .time-line {
   position: relative; }
