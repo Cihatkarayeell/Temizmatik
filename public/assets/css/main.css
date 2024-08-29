@@ -1569,10 +1569,32 @@ p {
 ===========================*/
 .about-section {
   background: #EFF2F9;
-  padding: 50px 0;
   position: relative; 
   font-family: "Outfit", sans-serif; 
+}
+.about-section .accordion{
+  box-shadow: 0px 0px 17px 3px rgb(0, 0, 0,.2);
+  border-radius: 10px;
 
+}
+.about-section .accordion-item{
+  background-color: transparent;
+}
+.about-section .accordion-button:focus{
+  box-shadow: none;
+}
+.about-section .accordion-button{
+  background-color: transparent;
+  font-size: 16px;
+  color: #051441;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.about-section .accordion-body{
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: .5px;
+  color: #051441;
 }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .about-section {
@@ -1582,7 +1604,25 @@ p {
       padding: 20px 0;
      } 
     }
-    
+  .about-section .header .title{
+    line-height: 55px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: #051441;
+    width:100%;
+    text-align: center;
+  }
+  .about-section .header .subtitle{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #6A7C92;
+    max-width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
 
 .time-line {
   position: relative; }
