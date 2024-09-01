@@ -148,7 +148,11 @@ p {
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .container {
-    width: 450px; } }
+    width:auto; 
+    max-width: 100%;
+    margin: 0 20px;
+    padding: 0;
+  } }
 
 .gray-bg {
   background: #EFF2F9; }
@@ -1505,6 +1509,11 @@ p {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s; }
+  .feature-section{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .feature-box.box-style{
     height: 100%;
   }
