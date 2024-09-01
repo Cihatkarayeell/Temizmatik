@@ -1932,8 +1932,8 @@ p {
 
 
 .features .row.dos {
-  -webkit-animation: scrollRight 55s linear infinite;
-  animation: scrollRight 55s linear infinite;
+  -webkit-animation: scrollRight 105s linear infinite;
+  animation: scrollRight 105s linear infinite;
   justify-content: flex-end;
 }
 
@@ -1951,8 +1951,8 @@ p {
 }
 
 .features .row.donts {
-  -webkit-animation: scrollLeft 55s linear infinite;
-  animation: scrollLeft 55s linear infinite;
+  -webkit-animation: scrollLeft 105s linear infinite;
+  animation: scrollLeft 105s linear infinite;
 }
 
 .feature+.feature {
