@@ -1715,8 +1715,8 @@ p {
     background: linear-gradient(#3763eb 0%, #6f58e8 100%);
     color: #fff;
     border-color: transparent; }
-    .time-line .single-timeline:hover .box-icon-style i {
-      color: #fff; }
+    .time-line .single-timeline:hover .box-icon-style svg {
+      stroke: #fff; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .time-line .single-timeline .timeline-img {
       margin-bottom: 30px; } }
@@ -2009,8 +2009,35 @@ p {
   position: relative;
   z-index: 2;
   background: #EFF2F9; }
+  .footer .footer-widget{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
   .footer .footer-widget .footer-desc {
-    line-height: 30px; }
+    line-height: 30px;
+    max-width: 80%;
+    text-align: center;
+  }
+  .footer-link-row {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    gap: 20px 0;
+    justify-content: center;
+  }
+  .footer-link-row div{
+    text-align: center;
+  }
+  .footer-link-row a{
+    font-weight: 500;
+    color: #6A7C92;
+    transition: 400ms ease;
+  }
+  .footer-link-row a:hover{
+    color: #222
+  }
   .footer .footer-widget h4 {
     margin-bottom: 35px;
     font-weight: 500; }
