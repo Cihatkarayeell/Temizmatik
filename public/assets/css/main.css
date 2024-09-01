@@ -1855,17 +1855,42 @@ p {
 /*===========================
     12. Contact CSS 
 ===========================*/
-.contact-section {
+.contact-section{
+  width: 100%;
+  height: 100%;
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+.contact-section .header .title{
+  color: #051441;
+  line-height: 55px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.contact-section .header .subtitle{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.contact-section .contact-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+} 
+.contact-section .contact-item .title{
+  font-weight: 600;
+  color: #051441;
+}
+.contact-section .contact-item .desc{
+  text-align: center;
+}
+.media {
   position: relative;
   z-index: 3; 
 }
-.contact-section .media-grid img{ 
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-}
-.contact-section .header .title{
+.media .header .title{
   width: auto;
   margin: 0 auto;
   margin-bottom: 35px;
@@ -1876,13 +1901,13 @@ p {
   text-align: center;
 }
 @media (max-width: 480px) {
-  .contact-section .header .title{
+  .media .header .title{
     font-size: 25px; 
     line-height: 35px;
     margin-bottom: 15px;
   }
 }
-.contact-section .row>* {
+.media .row>* {
   padding-right: 4px;
   padding-left: 4px;
 } 
@@ -1927,8 +1952,11 @@ p {
   object-fit: cover;
   width: 100%;
   height: 100%;
+  transition: transform 400ms ease;
 }
-
+.feature img:hover{
+  transform: scale(1.070);
+}
 
 
 .features .row.dos {
